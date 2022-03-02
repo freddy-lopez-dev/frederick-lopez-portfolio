@@ -1,0 +1,56 @@
+.profile-icon {
+  background-color: rgb(36,36,47);
+  color: white;
+  text-align: center;
+  padding-bottom: 2em;
+  padding-top: 0.9em;
+}
+
+.profile-icon img {
+  border-radius: 4em 4em;
+  margin: 1em 1em;
+  width: 100px;
+  height: 100px;
+}
+
+.profile-icon h1 {
+  font-size: 1.2em;
+  margin: 0 0 0.7em 0;
+}
+
+.profile-icon h2 {
+  color: rgb(140,140,142);
+  font-size: 0.9em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.personal-info {
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1.5em 0 1.5em 0;
+  border-bottom: 1px solid rgb(140,140,142);
+}
+
+.personal-info ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.personal-info li:nth-child(even) {
+  color: rgb(140,140,142);
+}
+
+.social-buttons {
+  background-color: rgb(36,36,47);
+  padding: 1em;
+}
+
+.social-buttons ul {
+  color: rgb(140,140,142);
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
