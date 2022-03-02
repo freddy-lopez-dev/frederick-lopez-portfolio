@@ -54,3 +54,75 @@
   display: flex;
   justify-content: space-around;
 }
+
+.tech-skill {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1.5em 0 1.5em 0;
+  border-bottom: 1px solid rgb(140,140,142);
+}
+
+.skill ul {
+  color: white;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.3em 0 0.3em;
+}
+
+.tech-skill li:nth-child(even) {
+  color: rgb(140,140,142);
+}
+
+.skill-info {
+  background-color: rgb(32,32,42);
+  padding-bottom: 2em;
+  overflow-y: auto;
+  height: 400px;
+}
+
+.skill-info::-webkit-scrollbar {
+  display: none;
+}
+
+.more-skills {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1.5em 0 1.5em 0;
+  border-bottom: 1px solid rgb(140,140,142);
+}
+
+.more-skills ul {
+  list-style-type: none;
+}
+
+.more-skills li {
+  color: rgb(140,140,142);
+}
+
+.more-skills i {
+  color: rgb(241,0,87);
+  margin-right: 0.8em;
+}
+
+.download-cv {
+  color: rgb(140,140,142);
+  padding-top: 2em;
+  padding-left: 2em;
+}
+
+.download-cv a {
+  color: rgb(140,140,142);
+  text-decoration: none;
+}
+
+#progressBar {
+  width: 100%;
+  background-color: grey;
+}
+
+#progress {
+  width: 1%;
+  height: 5px;
+  background-color: rgb(241,0,87);
+}
