@@ -21,7 +21,7 @@ main {
 
 .middle-panel {
   width: 70vw;
-  background-image: url(Images/middle-panel-wallpaper.jpg);
+  background-image: url(../Images/middle-panel-wallpaper.jpg);
   background-size: cover;
 }
 

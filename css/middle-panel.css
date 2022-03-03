@@ -8,3 +8,37 @@
 .main-content::-webkit-scrollbar {
   display: none;
 }
+
+.banner {
+  background-image: url(../Images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 3em;
+  width: 1000px;
+  height: 300px;
+  padding-left: 4em;
+  padding-top: 1.5em;
+}
+
+.banner h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 2.5em;
+  width: 500px;
+}
+
+.banner p {
+  color: white;
+  font-size: 2em;
+  width: 500px;
+}
+
+.banner button {
+  background-color: rgb(241,0,87);
+  color: white;
+  border: 0px solid rgb(241,0,87);
+  width: 160px;
+  height: 50px;
+  margin-top: 1.5em;
+}
