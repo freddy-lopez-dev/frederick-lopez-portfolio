@@ -1,0 +1,10 @@
+.main-content {
+  width: 1000px;
+  margin: 0 auto;
+  overflow-y: auto;
+  height: 725px;
+}
+
+.main-content::-webkit-scrollbar {
+  display: none;
+}
