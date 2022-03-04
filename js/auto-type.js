@@ -7,7 +7,7 @@ let index = 0;
 window.next_letter = function() {
   if (index <= buildWeb.length) {
     autoType.textContent = buildWeb.substr(0, index++);
-    setTimeout("next_letter()", 40);
+    setTimeout("next_letter()", 70);
   } 
 }
 

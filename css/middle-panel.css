@@ -42,3 +42,50 @@
   height: 50px;
   margin-top: 1.5em;
 }
+
+#my-services {
+  margin-top: 2em;
+}
+
+#my-services h1 {
+  font-size: 17px;
+  color: white;
+}
+
+#my-services ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: 1.5em;
+}
+
+#my-services li {
+  background-color: rgb(36,36,47);
+  width: 300px;
+  height: 200px;
+  margin-right: 1.5em;
+  margin-bottom: 2em;
+  padding: 2em;
+}
+
+#my-services li h1 {
+  font-size: 14px;
+}
+
+#my-services li p {
+  color: #8c8c8e;
+  font-size: 12px;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  width: 280px;
+}
+
+#my-services a {
+  text-decoration: none;
+  color: rgb(241,0,87);
+  font-size: 14px;
+}
+
+#my-services a:hover {
+  color : rgb(252, 128, 173);
+}
