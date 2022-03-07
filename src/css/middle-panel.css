@@ -89,3 +89,94 @@
 #my-services a:hover {
   color : rgb(252, 128, 173);
 }
+
+.recommendations {
+  margin-top: 2em;
+}
+
+.recommendations h1 {
+  font-size: 17px;
+  color: white;
+}
+
+.celeen {
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  left: 195px;
+  top: 0px;
+}
+
+.kim {
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  left: 520px;
+  top: 0px;
+}
+
+.bharat {
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  left: 845px;
+  top: 0px;
+}
+
+.ivan {
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  left: 195px;
+  top: 270px;
+}
+
+.lena {
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  left: 520px;
+  top: 270px;
+}
+
+.robert {
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  left: 845px;
+  top: 270px;
+}
+
+.recommendations ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  position: relative;
+  margin-top: 2em;
+}
+
+.recommendations li {
+  background-color: rgb(36,36,47);
+  width: 300px;
+  height: 200px;
+  margin-right: 1.5em;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  padding: 1.5em;
+}
+
+.recommendations li h1 {
+  font-size: 14px;
+}
+
+.recommendations li p {
+  color: #8c8c8e;
+  font-size: 12px;
+  margin-top: 1.5em;
+  width: 280px;
+}
+
+.recommendations li h2 {
+  color:#606061;
+  font-size: 10px;
+}
