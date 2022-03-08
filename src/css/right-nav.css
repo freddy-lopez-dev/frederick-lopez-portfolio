@@ -1,0 +1,112 @@
+#hamburger {
+  background-color: rgb(36,36,47);
+  padding: 1.5em;
+}
+
+#hamburger i {
+  color: #8c8c8e;
+}
+
+#hamburger i:hover {
+  color: white;
+}
+
+.page-name {
+  background-color: rgb(32,32,42);
+  height: 520px;
+}
+
+.page-name h1 {
+  color: #8c8c8e;
+  writing-mode: vertical-rl;
+  font-size: 14px;
+  margin: 0 auto;
+  padding-top: 2em;
+}
+
+.view-mode {
+  background-color: rgb(36,36,47);
+  height: 135px;
+}
+
+.view-mode {
+  text-align: center;
+  padding-top: 1.3em;
+}
+
+.view-mode li {
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+
+
+.moon {
+  background-color: rgb(241,0,87);
+  width: 40px;
+  margin: 0 auto;
+  padding: 0.5em;
+  border-radius: 50%;
+}
+
+.sun {
+  background-color: #1e1e28;
+  width: 40px;
+  margin: 0 auto;
+  padding: 0.5em;
+  border-radius: 50%;
+}
+
+.moon i {
+  color: #1e1e28;
+}
+
+.sun i {
+  color: #8c8c8e;
+}
+
+#menu {
+  position: absolute;
+  background-color: rgb(32,32,42);
+  width: 300px;
+  height: 728px;
+  right: 40px;
+  top: 24px;
+  text-align: left;
+  display: none;
+}
+
+.close {
+  background-color: rgb(36,36,47);
+  height: 60px;
+  font-size: 1.3em;
+  padding-left: 1.3em;
+  padding-top: 0.7em;
+}
+
+.close a {
+  color: #8c8c8e;
+  text-decoration: none;
+}
+
+.close a:hover {
+  color: white;
+}
+
+#menu ul {
+  margin-top: 3em;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: #8c8c8e;
+}
+
+#menu li a:hover {
+  color: white;
+}
+
+#menu li {
+  list-style-type: none;
+  margin-top: 1em;
+  padding-left: 2em;
+}
