@@ -1,0 +1,275 @@
+.project-menu {
+  list-style-type: none;
+  position: relative;
+  margin-top: 1.9em;
+  left: 2em;
+}
+
+.project-menu a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #8c8c8e;
+}
+
+.project-menu a:hover {
+  color: white;
+}
+
+.project-menu li {
+  display: inline;
+  margin-right: 2em;
+}
+
+.current a {
+  color: white;
+}
+
+.projects {
+  margin: 0 auto;
+  overflow-y: auto;
+  height: 670px;
+  position: relative;
+}
+
+.projects::-webkit-scrollbar {
+  display: none;
+}
+
+#logo img{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  left: 30px;
+  top: 50px;
+}
+
+#hoverlogo {
+  color: white;
+  width: 300px;
+  height: 200px;
+  background-color: rgb(36,36,47);
+  position: absolute;
+  left: 30px;
+  top: 50px;
+  opacity: 80%;
+  text-align: center;
+  padding-top: 3em;
+  display: none;
+}
+
+#hoverlogo p,
+#hoverlrover p,
+#hovergame p,
+#hoveroutlet p,
+#hoverlumen p,
+#hoverkraft p,
+#hoverportal p,
+#hovershift p,
+#hovercrypt p {
+  margin-bottom: 2em;
+}
+
+#hoverlogo button, 
+#hoverlrover button,
+#hovergame button,
+#hoveroutlet button,
+#hoverlumen button,
+#hoverkraft button,
+#hoverportal button,
+#hovershift button,
+#hovercrypt button {
+  background-color: rgb(241,0,87);
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0.7em 2em 0.7em 2em;
+  border-radius: 0.3em;
+}
+
+#lrover img{
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  left: 380px;
+  top: 50px;
+  opacity: 80%;
+}
+
+#hoverlrover {
+  color: white;
+  width: 300px;
+  height: 500px;
+  background-color: rgb(36,36,47);
+  position: absolute;
+  left: 380px;
+  top: 50px;
+  opacity: 90%;
+  text-align: center;
+  padding-top: 11em;
+  display: none;
+}
+
+#match img{
+  width: 320px;
+  height: 300px;
+  position: absolute;
+  left: 730px;
+  top: 50px;
+  opacity: 80%;
+}
+
+#hovergame {
+  color: white;
+  width: 320px;
+  height: 300px;
+  background-color: rgb(36,36,47);
+  position: absolute;
+  left: 730px;
+  top: 50px;
+  opacity: 90%;
+  text-align: center;
+  padding-top: 7em;
+  display: none;
+}
+
+#outlet img{
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  right: 740px;
+  top: 300px;
+  opacity: 80%;
+}
+
+#hoveroutlet {
+  color: white;
+  width: 300px;
+  height: 500px;
+  background-color: rgb(36,36,47);
+  position: absolute;
+  right: 740px;
+  top: 300px;
+  opacity: 90%;
+  text-align: center;
+  padding-top: 11em;
+  display: none;
+}
+
+#lumen8 img{
+  width: 320px;
+  height: 200px;
+  position: absolute;
+  left: 730px;
+  top: 855px;
+}
+
+#hoverlumen {
+  color: white;
+  width: 320px;
+  height: 200px;
+  background-color: rgb(36,36,47);
+  position: absolute;
+  left: 730px;
+  top: 855px;
+  opacity: 90%;
+  text-align: center;
+  padding-top: 2.2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: none;
+}
+
+#kraft img{
+  width: 300px;
+  height: 445px;
+  position: absolute;
+  right: 393px;
+  top: 605px;
+  opacity: 80%;
+}
+
+#hoverkraft {
+  color: white;
+  width: 300px;
+  height: 445px;
+  background-color: rgb(36,36,47);
+  position: absolute;
+  right: 393px;
+  top: 605px;
+  opacity: 90%;
+  text-align: center;
+  padding-top: 11em;
+  display: none;
+}
+
+#portal img{
+  width: 320px;
+  height: 200px;
+  position: absolute;
+  left: 730px;
+  top: 390px;
+}
+
+#hoverportal {
+  color: white;
+  width: 320px;
+  height: 200px;
+  background-color: rgb(36,36,47);
+  position: absolute;
+  left: 730px;
+  top: 390px;
+  opacity: 90%;
+  text-align: center;
+  padding-top: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: none;
+}
+
+#shift img{
+  width: 320px;
+  height: 200px;
+  position: absolute;
+  left: 730px;
+  top: 625px;
+}
+
+#hovershift {
+  color: white;
+  width: 320px;
+  height: 200px;
+  background-color: rgb(36,36,47);
+  position: absolute;
+  left: 730px;
+  top: 625px;
+  opacity: 90%;
+  text-align: center;
+  padding-top: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: none;
+}
+
+#crypt img{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  left: 30px;
+  top: 850px;
+}
+
+#hovercrypt {
+  color: white;
+  width: 300px;
+  height: 200px;
+  background-color: rgb(36,36,47);
+  position: absolute;
+  left: 30px;
+  top: 850px;
+  opacity: 90%;
+  text-align: center;
+  padding-top: 3em;
+  display: none;
+  padding-left: 1em;
+  padding-right: 1em;
+}
