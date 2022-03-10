@@ -1,0 +1,121 @@
+h1 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  color: white;
+  font-size: 17px;
+  margin-left: 1em;
+}
+
+.contact-information {
+  display: flex;
+}
+
+.country, 
+.email, 
+.phone {
+  color: white;
+  margin: 0 auto;
+  padding: 1.3em;
+  background-color: rgb(45,45,57);
+  width: 30%;
+}
+
+.country ul, 
+.email ul, 
+.phone ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.country li, 
+.email li, 
+.phone li {
+  font-size: 12px;
+}
+
+.country li:nth-child(even), 
+.email li:nth-child(even), 
+.phone li:nth-child(even) {
+  color: rgb(140,140,142);
+  font-size: 12px;
+}
+
+.contact-form {
+  width: 970px;
+  height: 450px;
+  background-color: rgb(45,45,57);
+  margin-left: 1em;
+  padding: 2em;
+}
+
+.name, 
+.send-email {
+  display: flex;
+  align-items: center;
+  background-color: rgb(36,36,47);
+  height: 50px;
+}
+
+.message {
+  display: flex;
+  align-items: flex-start;
+  background-color: rgb(36,36,47);
+  height: 162px;
+  margin-top: 2em;
+}
+
+.send-email {
+  margin-top: 2em;
+}
+
+.name input,
+.send-email input {
+  height: 40px;
+  background-color: rgb(36,36,47);
+  border: 0;
+  color: rgb(140,140,142);
+  padding-left: 1em ;
+  width: 900px;
+}
+
+
+.name i {
+  font-size: 20px;
+  padding: 0.7em;
+  color: rgb(140,140,142);
+  background-color: rgb(32,32,42);
+}
+
+.send-email i {
+  font-size: 20px;
+  padding: 0.7em 0.7em 0.7em 0.6em;
+  color: rgb(140,140,142);
+  background-color: rgb(32,32,42);
+}
+
+.message i {
+  font-size: 20px;
+  padding: 0.7em 0.7em 0.7em 0.6em;
+  color: rgb(140,140,142);
+  background-color: rgb(32,32,42);
+  height: 162px;
+}
+
+textarea {
+  padding-left: 1em;
+  padding-top: 1em ;
+  width: 900px;
+  background-color: rgb(36,36,47); 
+  color: rgb(140,140,142);
+  border: 0;
+}
+
+button {
+  background-color: rgb(241,0,87);
+  color: white;
+  border: 0px solid rgb(241,0,87);
+  width: 160px;
+  height: 50px;
+  margin-top: 1.5em;
+}
