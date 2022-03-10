@@ -87,3 +87,7 @@ hovercrypt.lastElementChild.addEventListener('click', function() {
 hiddenDiv.lastElementChild.addEventListener('click', function() {
   location.href='../pages/br-project.html';
 })
+
+hovergame.lastElementChild.addEventListener('click', function() {
+  location.href='../pages/minigames.html';
+})
