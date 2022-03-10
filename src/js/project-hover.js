@@ -83,3 +83,7 @@ hovercrypt.addEventListener('mouseout', function(e) {
 hovercrypt.lastElementChild.addEventListener('click', function() {
   location.href='crypt.html';
 })
+
+hiddenDiv.lastElementChild.addEventListener('click', function() {
+  location.href='../pages/br-project.html';
+})

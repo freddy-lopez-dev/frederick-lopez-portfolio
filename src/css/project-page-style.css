@@ -137,7 +137,7 @@
   height: 500px;
   position: absolute;
   right: 740px;
-  top: 300px;
+  top: 550px;
   opacity: 80%;
 }
 
@@ -148,7 +148,7 @@
   background-color: rgb(36,36,47);
   position: absolute;
   right: 740px;
-  top: 300px;
+  top: 550px;
   opacity: 90%;
   text-align: center;
   padding-top: 11em;
@@ -160,7 +160,7 @@
   height: 200px;
   position: absolute;
   left: 730px;
-  top: 855px;
+  top: 385px;
 }
 
 #hoverlumen {
@@ -170,7 +170,7 @@
   background-color: rgb(36,36,47);
   position: absolute;
   left: 730px;
-  top: 855px;
+  top: 385px;
   opacity: 90%;
   text-align: center;
   padding-top: 2.2em;
@@ -207,7 +207,7 @@
   height: 200px;
   position: absolute;
   left: 730px;
-  top: 390px;
+  top: 860px;
 }
 
 #hoverportal {
@@ -217,7 +217,7 @@
   background-color: rgb(36,36,47);
   position: absolute;
   left: 730px;
-  top: 390px;
+  top: 860px;
   opacity: 90%;
   text-align: center;
   padding-top: 3em;
@@ -255,7 +255,7 @@
   height: 200px;
   position: absolute;
   left: 30px;
-  top: 850px;
+  top: 300px;
 }
 
 #hovercrypt {
@@ -265,7 +265,7 @@
   background-color: rgb(36,36,47);
   position: absolute;
   left: 30px;
-  top: 850px;
+  top: 300px;
   opacity: 90%;
   text-align: center;
   padding-top: 3em;
