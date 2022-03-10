@@ -1,0 +1,197 @@
+.project-container {
+  overflow-y: auto;
+  height: 725px;
+}
+
+.project-container::-webkit-scrollbar {
+  display: none;
+}
+
+#project-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  color: white;
+}
+
+#project-title button {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(241,0,87);
+  border: 0;
+  padding: 0.7em 2em 0.7em 2em;
+  border-radius: 0.3em;
+}
+
+#project-title button:hover {
+  background-color: rgb(241, 47, 118);
+}
+
+.img-slider {
+  display: flex;
+  margin-left: 2em;
+}
+
+.img-slider img {
+  width: 350px;
+  height: 250px;
+  margin-right: 2em;
+  cursor: pointer;
+}
+
+/* Add an actual hover later */
+.img-slider img:hover {
+  opacity: 90%;
+}
+
+
+.project-details-container {
+  color: white;
+}
+
+.project-details-container h1 {
+  font-size: 17px;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+.project-details {
+  display: flex;
+}
+
+.details {
+  color: white;
+  margin-left: 2em;
+  margin-top: 2em;
+  background-color: #2C2C38;
+  width: 650px;
+  padding: 2em;
+}
+
+.details h3 {
+  font-size: 17px;
+  margin-bottom: 1em;
+}
+
+.details p {
+  font-size: 14px;
+}
+
+.tools {
+  color: white;
+  margin-left: 2em;
+  margin-top: 2em;
+  background-color: #2C2C38;
+  width: 300px;
+}
+
+.tools-holder {
+  list-style-type: none;
+  display: flex;
+  margin-left: 1.5em;
+  margin-top: 1.7em;
+}
+
+.tools-holder img{
+  width: 60px;
+  height: 60px;
+  margin-right: 0.7em;
+}
+
+.code-container {
+  background-color: #2C2C38;
+  width: 980px;
+}
+
+.code-snip {
+  color: white;
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+.code-tab {
+  margin-top: 2em;
+  list-style-type: none;
+  display: flex;
+  padding: 2em;
+}
+
+.code-tab li {
+  margin-right: 1em;
+}
+
+.code-tab a {
+  text-decoration: none;
+  color: #8c8c8e;
+}
+
+.code-tab a:hover {
+  color: white;
+}
+
+#css-code {
+  display: none;
+}
+
+#js-code {
+  display: none;
+}
+
+#html-code {
+  display: block;
+}
+
+.modal1, .modal2 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 1020px;
+}
+
+#caption1, #caption2 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+#cross1, #cross2 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#cross1:hover,
+#cross2:hover,
+#cross1:focus,
+#cross2:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.description p {
+  text-align: justify;
+}
