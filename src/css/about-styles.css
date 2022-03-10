@@ -1,0 +1,186 @@
+.intro {
+  display: flex;
+}
+
+.outline {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-tag > img {
+  border-radius: 2em 2em;
+  width: 150px;
+  height: 150px;
+}
+
+.name-tag {
+  height: 660px;
+  padding: 2em;
+  text-align: center;
+  width: 300px;
+  background-color: rgb(32,32,42);
+}
+
+.outline h3 {
+  color: rgb(140,140,142);
+  font-size: 16px;
+}
+
+.outline h1 {
+  margin-top: 1em;
+  font-size: 20px;
+  color: white;
+}
+
+.about-container > p {
+  background-color: rgb(36,36,47);
+  text-align: justify;
+  color: rgb(140,140,142);
+  padding-top: 0.3em;
+  padding: 2em;
+  width: 700px;
+}
+
+.outline button {
+  color: white;
+  margin-top: 1em;
+  font-size: 12px;
+  background-color: rgb(241,0,87);
+  border: 0;
+  width: 100px;
+  height: 30px;
+}
+
+.image-app {
+  background-image: url(../Images/about-me-pic-big.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 480px;
+  text-align: center;
+  color: white;
+}
+
+.image-details {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(36,36,47);
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  background-color: rgb(36,36,47);
+}
+
+.glow {
+  position: absolute;
+  opacity: 30%;
+  background-color: rgb(241,0,87);
+  box-shadow: 0 0 0 0 rgba(241, 0, 87, 1);
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  animation: glow-red 2s infinite;
+}
+
+@keyframes glow-red {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgb(241, 0, 87, 1);
+    opacity: 100%;
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgb(241, 0, 87, 0);
+  }
+    
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgb(241, 0, 87, 0);
+  }
+}
+
+.kid {
+  top: 490px;
+  right: 485px;
+}
+
+.cafe {
+  top: 330px;
+  right: 520px;
+}
+
+.tour {
+  top: 450px;
+  right: 550px;
+}
+
+.phone {
+  top: 540px;
+  right: 495px;
+}
+
+.sneaker {
+  top: 620px;
+  right: 495px;
+}
+
+.kiddo {
+  padding: 0.5em;
+  font-size: 14px;
+  background-color: rgb(241, 0, 87, 1);
+  color: white;
+  top: 480px;
+  right: 250px;
+  display: none;
+  position: absolute;
+}
+
+.coffee {
+  padding: 0.5em;
+  font-size: 14px;
+  background-color: rgb(241, 0, 87, 1);
+  color: white;
+  top: 320px;
+  right: 580px;
+  display: none;
+  position: absolute;
+}
+
+.traveler {
+  text-align: center;
+  padding: 0.5em;
+  width: 280px;
+  font-size: 14px;
+  background-color: rgb(241, 0, 87, 1);
+  color: white;
+  top: 430px;
+  right: 580px;
+  display: none;
+  position: absolute;
+}
+
+.notif {
+  padding: 0.5em;
+  font-size: 14px;
+  background-color: rgb(241, 0, 87, 1);
+  color: white;
+  top: 528px;
+  right: 520px;
+  display: none;
+  position: absolute;
+}
+
+.shoes {
+  padding: 0.5em;
+  font-size: 14px;
+  background-color: rgb(241, 0, 87, 1);
+  color: white;
+  top: 605px;
+  right: 520px;
+  display: none;
+  position: absolute;
+}
