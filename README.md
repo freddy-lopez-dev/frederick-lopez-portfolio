@@ -25,7 +25,7 @@
 
 ## Welcome to my portfolio
 
-<img src="src/Images/fred-portfolio-page.png" alt="portfolio-page" width="1020" height="620">
+<img src="src/Images/fred-portfolio-page.png" alt="portfolio-page" width="920" height="520">
 
 ### Getting Started
 👌Thanks for dropping in to my portfolio project repository.
@@ -44,7 +44,7 @@
    ```
 🏃 Run all npm build
  ```sh
-   npm run build:all
+   npm run build
    ```
 
 ### Introduction
