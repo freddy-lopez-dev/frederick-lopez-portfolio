@@ -35,12 +35,17 @@
 }
 
 .banner button {
+  cursor: pointer;
   background-color: rgb(241,0,87);
   color: white;
   border: 0px solid rgb(241,0,87);
   width: 160px;
   height: 50px;
   margin-top: 1.5em;
+}
+
+.banner button:hover {
+  background-color: rgb(235, 85, 140);
 }
 
 #my-services {
