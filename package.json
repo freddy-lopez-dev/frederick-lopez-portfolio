@@ -5,7 +5,7 @@
   "scripts": {
     "build:css": "cleancss src/css/*.css -o dist/css/style.min.css",
     "minify-images": "imagemin src/Images/* --out-dir=dist/images",
-    "build:js": "mkdirp dist/js && uglifyjs src/js/progress-bar.js --compress -o dist/js/progress-bar-min.js && uglifyjs src/js/auto-type.js --compress -o dist/js/auto-type-min.js && uglifyjs src/js/nav-pop-out.js --compress -o dist/js/nav-pop-out-min.js && uglifyjs src/js/about-hover.js --compress -o dist/js/about-hover-min.js && uglifyjs src/js/code-snippet.js --compress -o dist/js/code-snippet-min.js && uglifyjs src/js/image-modal.js --compress -o dist/js/image-modal-min.js && uglifyjs src/js/project-hover.js --compress -o dist/js/project-hover-min.js && uglifyjs src/js/project-tab.js --compress -o dist/js/project-tab-min.js",
+    "build:js": "mkdirp dist/js && uglifyjs src/js/progress-bar.js --compress -o dist/js/progress-bar-min.js && uglifyjs src/js/auto-type.js --compress -o dist/js/auto-type-min.js && uglifyjs src/js/nav-pop-out.js --compress -o dist/js/nav-pop-out-min.js && uglifyjs src/js/about-hover.js --compress -o dist/js/about-hover-min.js && uglifyjs src/js/code-snippet.js --compress -o dist/js/code-snippet-min.js && uglifyjs src/js/image-modal.js --compress -o dist/js/image-modal-min.js && uglifyjs src/js/project-hover.js --compress -o dist/js/project-hover-min.js && uglifyjs src/js/project-tab.js --compress -o dist/js/project-tab-min.js && uglifyjs src/js/switch-theme.js --compress -o dist/js/switch-theme-min.js",
     "copy:pages": "cp src/*.html dist && cp src/pages/*.html dist",
     "build": "npm run build:css && npm run minify-images && npm run build:js && npm run copy:pages"
   },
