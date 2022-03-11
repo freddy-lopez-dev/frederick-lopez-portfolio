@@ -4,9 +4,10 @@
   "description": "This is Frederick Lopez project portfolio",
   "scripts": {
     "build:css": "cleancss src/css/*.css -o dist/css/style.min.css",
+    "minify-images": "imagemin src/Images/* --out-dir=dist/images",
     "copy:index": "cp src/*.html dist",
     "copy:pages": "cp src/pages/*.html dist",
-    "build": "npm run build:css && npm run copy:index && npm run copy:pages"
+    "build": "npm run build:css && npm run minify-images && npm run copy:index && npm run copy:pages"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/slickrickgit/frederick-lopez-portfolio#readme",
   "devDependencies": {
-    "clean-css-cli": "^5.5.2"
+    "clean-css-cli": "^5.5.2",
+    "imagemin-cli": "^7.0.0"
   }
 }
