@@ -2,7 +2,10 @@
   "name": "frederick-lopez-portfolio",
   "version": "1.0.0",
   "description": "This is Frederick Lopez project portfolio",
-  "scripts": {},
+  "scripts": {
+    "build:css": "cleancss src/css/*.css -o dist/css/style.min.css",
+    "build": "npm run build:css"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/slickrickgit/frederick-lopez-portfolio.git"
@@ -12,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/slickrickgit/frederick-lopez-portfolio/issues"
   },
-  "homepage": "https://github.com/slickrickgit/frederick-lopez-portfolio#readme"
+  "homepage": "https://github.com/slickrickgit/frederick-lopez-portfolio#readme",
+  "devDependencies": {
+    "clean-css-cli": "^5.5.2"
+  }
 }

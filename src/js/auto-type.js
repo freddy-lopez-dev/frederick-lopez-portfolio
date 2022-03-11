@@ -1,7 +1,6 @@
 let autoType = document.getElementById('auto-type');
 
-let buildWeb = "I Build web interfaces";
-let designWeb = "I Design web interfaces"
+let buildWeb = "I build web interfaces";
 let index = 0;
 
 window.next_letter = function() {
