@@ -1,7 +1,7 @@
 const banner = document.querySelector('.banner')
 
 banner.lastElementChild.addEventListener('click', function() {
-  location.href='./pages/projects.html';
+  location.href='projects.html';
 })
 
 const autoType = document.getElementById('auto-type');
