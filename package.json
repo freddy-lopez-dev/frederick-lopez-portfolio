@@ -1,0 +1,16 @@
+{
+  "name": "frederick-lopez-portfolio",
+  "version": "1.0.0",
+  "description": "This is Frederick Lopez project portfolio",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slickrickgit/frederick-lopez-portfolio.git"
+  },
+  "author": "Frederick Lopez <frederickpiadolopez@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slickrickgit/frederick-lopez-portfolio/issues"
+  },
+  "homepage": "https://github.com/slickrickgit/frederick-lopez-portfolio#readme"
+}
