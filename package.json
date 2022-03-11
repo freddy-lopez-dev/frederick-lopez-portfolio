@@ -4,7 +4,9 @@
   "description": "This is Frederick Lopez project portfolio",
   "scripts": {
     "build:css": "cleancss src/css/*.css -o dist/css/style.min.css",
-    "build": "npm run build:css"
+    "copy:index": "cp src/*.html dist",
+    "copy:pages": "cp src/pages/*.html dist",
+    "build": "npm run build:css && npm run copy:index && npm run copy:pages"
   },
   "repository": {
     "type": "git",
