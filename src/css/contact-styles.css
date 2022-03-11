@@ -8,13 +8,13 @@ h1 {
 
 .contact-information {
   display: flex;
+  justify-content: space-between;
 }
 
 .country, 
 .email, 
-.phone {
+.tphone {
   color: white;
-  margin: 0 auto;
   padding: 1.3em;
   background-color: rgb(45,45,57);
   width: 30%;
@@ -22,7 +22,7 @@ h1 {
 
 .country ul, 
 .email ul, 
-.phone ul {
+.tphone ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -30,13 +30,13 @@ h1 {
 
 .country li, 
 .email li, 
-.phone li {
+.tphone li {
   font-size: 12px;
 }
 
 .country li:nth-child(even), 
 .email li:nth-child(even), 
-.phone li:nth-child(even) {
+.tphone li:nth-child(even) {
   color: rgb(140,140,142);
   font-size: 12px;
 }
@@ -45,7 +45,6 @@ h1 {
   width: 970px;
   height: 450px;
   background-color: rgb(45,45,57);
-  margin-left: 1em;
   padding: 2em;
 }
 

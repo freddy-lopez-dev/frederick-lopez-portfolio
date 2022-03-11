@@ -25,7 +25,7 @@
 
 ## Welcome to my portfolio
 
-<img src="src/Images/fred-portfolio-page.png" alt="portfolio-page" width="820" height="320">
+<img src="src/Images/fred-portfolio-page.png" alt="portfolio-page" width="1020" height="620">
 
 ### Getting Started
 👌Thanks for dropping in to my portfolio project repository.

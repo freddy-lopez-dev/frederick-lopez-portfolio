@@ -1,3 +1,11 @@
+#project-title h1 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  color: #fff;
+  font-size: 17px;
+  margin-left: 0;
+}
+
 .project-menu {
   list-style-type: none;
   position: relative;
@@ -272,4 +280,8 @@
   display: none;
   padding-left: 1em;
   padding-right: 1em;
+}
+
+.code-snip h1 {
+  margin-left: 0;
 }
