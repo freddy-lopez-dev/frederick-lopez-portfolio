@@ -81,13 +81,13 @@ hovercrypt.addEventListener('mouseout', function(e) {
 })
 
 hovercrypt.lastElementChild.addEventListener('click', function() {
-  location.href='../pages/crypt-project.html';
+  location.href='crypt-project.html';
 })
 
 hiddenDiv.lastElementChild.addEventListener('click', function() {
-  location.href='../pages/br-project.html';
+  location.href='br-project.html';
 })
 
 hovergame.lastElementChild.addEventListener('click', function() {
-  location.href='../pages/minigames.html';
+  location.href='minigames.html';
 })

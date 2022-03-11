@@ -129,6 +129,10 @@
   color: white;
 }
 
+.current a {
+  color: white;
+}
+
 #css-code {
   display: none;
 }
