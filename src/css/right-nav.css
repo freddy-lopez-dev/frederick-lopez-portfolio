@@ -40,15 +40,16 @@
 }
 
 
-.moon {
+#moon {
   background-color: rgb(241,0,87);
   width: 40px;
   margin: 0 auto;
   padding: 0.5em;
   border-radius: 50%;
+  margin-bottom: 1em;
 }
 
-.sun {
+#sun {
   background-color: #1e1e28;
   width: 40px;
   margin: 0 auto;
@@ -56,11 +57,11 @@
   border-radius: 50%;
 }
 
-.moon i {
+#moon i {
   color: #1e1e28;
 }
 
-.sun i {
+#sun i {
   color: #8c8c8e;
 }
 
