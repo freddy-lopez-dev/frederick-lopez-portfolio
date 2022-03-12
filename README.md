@@ -12,9 +12,9 @@
     <a href="https://github.com/slickrickgit/frederick-lopez-portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="www.fredericklopez.com">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/slickrickgit/frederick-lopez-portfolio/issues/new">Report Bug</a>
   </p>
 </div>
 
@@ -50,11 +50,11 @@
 ### Introduction
 This is my project portfolio created in HTML, CSS and JS. It showcase some of my sample works and projects as being a software developer student and a UX designer. The potfolio consist of the following pages:
 
-* [Home](https://nextjs.org/)
-* [Projects](https://reactjs.org/)
-* [About](https://vuejs.org/)
-* [Contact](https://angular.io/)
-* [Blog](https://angular.io/)
+* [Home](https://fredericklopez.com/)
+* [Projects](https://fredericklopez.com/projects.html)
+* [About](https://fredericklopez.com/about-me.html)
+* [Contact](https://fredericklopez.com/contact.html)
+* [Blog](https://fredericklopez.com/blog.html)
 
 ### Navigation
 #### Left panel consist of the following elements
