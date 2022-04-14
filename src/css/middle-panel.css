@@ -2,7 +2,7 @@
   width: 1000px;
   margin: 0 auto;
   overflow-y: auto;
-  height: 725px;
+  height: 715px;
 }
 
 .main-content::-webkit-scrollbar {
@@ -76,7 +76,7 @@
   height: 200px;
   margin-right: 1.5em;
   margin-bottom: 2em;
-  padding: 2em;
+  padding: 1.4em;
 }
 
 #my-services li h1 {
@@ -90,8 +90,8 @@
   color: #8c8c8e;
   font-size: 12px;
   margin-top: 1em;
-  margin-bottom: 1.5em;
-  width: 280px;
+  margin-bottom: 0.5em;
+  width: 246px;
 }
 
 #my-services a {

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BR Architects Project Page Frederick Portfolio</title>
+  <title>LandRover Project Page Frederick Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -118,14 +118,19 @@
     <section class="middle-panel">
       <div class="project-container">
         <div id="project-title">
-          <h1>BR Architects Home Page</h1>
-          <button>Back to Projects</button>
+          <h1>Land Rover - Own Your Land</h1>
+          <div class="project-button">
+            <button id="pjnbtn">See the live demo</button>
+            <button id="pjnbtn">Back to Projects</button>
+          </div>
         </div>
 
         <section class="project-content">
-          <div class="img-slider">
-            <img id="img1" src="Images/br-logo.jpg" alt="BR Architects Logo">
-            <img id="img2" src="Images/br-page.JPG" alt="BR Architects Home page">
+          <div class="img-slider-mobile">
+            <img id="img1" src="Images/lr1.png" alt="BR Architects Logo">
+            <img id="img2" src="Images/lr2.png" alt="BR Architects Home page">
+            <img id="img3" src="Images/lr3.png" alt="BR Architects Logo">
+            <img id="img4" src="Images/lr4.png" alt="BR Architects Home page">
           </div>
 
           <div id="modal1" class="modal1">
@@ -144,9 +149,11 @@
             <h1>Project Details</h1>
             <div class="project-details">
               <section class="details">
-                <div class="description">
+                <div class="prjdesc">
                   <h3>Description</h3>
-                  <p>BR Architects web page shows the landing page of BR. The site shows BR projects for architecture, showing the member behind BR success and a simple contact form. BR Architects web page created using HTML and CSS. This is a sample project work in my Software development course.</p>
+                  <p>Own your land is a mobile application that offers a route recording feature, route sharing, photo sharing, and badges for completing specified trails. There are several Gamification ideas that give users some achievements they can share with their friends. In collaboration with the product owner and Land Rover MENA, I built and conceptualized the user interface for this application.</p>
+                  <br>
+                  <p>I began by interviewing stakeholders and creating significant personas. As a result of gathering all the requirements and conducting UX research, I was able to design the user flow and create the mockups. The badge feature was part of my gamification strategy.</p>
                 </div>
               </section>
 
@@ -154,565 +161,15 @@
                 <h1>Tools used</h1>
                 <ul class="tools-holder">
                   <li>
-                    <img src="Images/html-logo.png" alt="">
+                    <img src="Images/invision-logo.png" alt="">
                   </li>
                   <li>
-                    <img src="Images/css-logo.png" alt="">
+                    <img src="Images/flinto.png" alt="">
                   </li>
                 </ul>
               </section>
             </div>
           </div>
-          <section class="code-snip">
-            <h1>Code Snippet</h1>
-            <div class="code-container">
-              <ul class="code-tab">
-                <li id="listHt" class="current"><a href="">HTML</a></li>
-                <li id="listStyle"><a href="">CSS</a></li>
-              </ul>
-
-              <div id="html-code">
-              <pre style="font-size: 12px; background-color: #20202A;">
-                <code class="">
-                  &lt;!DOCTYPE html&gt;
-                  &lt;html lang="en"&gt;
-                  &lt;head&gt;
-                    &lt;meta charset="UTF-8"&gt;
-                    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
-                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-                    &lt;title&gt;BR Architects Portfolio&lt;/title&gt;
-                    &lt;link rel="stylesheet" href="./style.css"&gt;
-                    &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;
-                  &lt;/head&gt;
-                  &lt;body&gt;
-                    &lt;header&gt;
-                      &lt;section class="logo"&gt;
-                        &lt;h1&gt;BR&lt;/h1&gt;
-                        &lt;h2&gt;Architects&lt;/h2&gt;
-                      &lt;/section&gt;
-                      &lt;nav&gt;
-                        &lt;ul&gt;
-                          &lt;li&gt;&lt;a href="#projects"&gt;Projects&lt;/a&gt;&lt;/li&gt;
-                          &lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
-                          &lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
-                        &lt;/ul&gt;
-                      &lt;/nav&gt;
-                    &lt;/header&gt;
-                  
-                    &lt;section class="banner"&gt;
-                      &lt;section class="banner-title"&gt;
-                        &lt;h1&gt;BR&lt;/h1&gt;
-                        &lt;h2&gt;Architects&lt;/h2&gt;
-                      &lt;/section&gt;
-                      &lt;img src="./Images/architect.jpg" alt="BR Banner Image"&gt;
-                    &lt;/section&gt;
-                  
-                    &lt;main&gt;
-                      &lt;section class="projects" id="projects"&gt;
-                        &lt;h1&gt;Projects&lt;/h1&gt;
-                        &lt;div class="sample-houses"&gt;
-                          &lt;div class="house one"&gt;
-                            &lt;h3&gt;Summer House&lt;/h3&gt;
-                            &lt;img src="./Images/house-5.jpg" alt="summer house image"&gt;
-                          &lt;/div&gt;
-                          &lt;div class="house two"&gt;
-                            &lt;h3&gt;Brick House&lt;/h3&gt;
-                            &lt;img src="./Images/house-2.jpg" alt="brick house image"&gt;
-                          &lt;/div&gt;
-                          &lt;div class="house three"&gt;
-                            &lt;h3&gt;Renovated&lt;/h3&gt;
-                            &lt;img src="./Images/house-3.jpg" alt="renovated house image"&gt;
-                          &lt;/div&gt;
-                          &lt;div class="house four"&gt;
-                            &lt;h3&gt;Barn House&lt;/h3&gt;
-                            &lt;img src="./Images/house-4.jpg" alt="barn house image"&gt;
-                          &lt;/div&gt;
-                          &lt;div class="house five"&gt;
-                            &lt;h3&gt;Container&lt;/h3&gt;
-                            &lt;img src="./Images/house-1.jpg" alt="container house image"&gt;
-                          &lt;/div&gt;
-                          &lt;div class="house six"&gt;
-                            &lt;h3&gt;Imperial&lt;/h3&gt;
-                            &lt;img src="./Images/house-6.jpg" alt="imperial house image"&gt;
-                          &lt;/div&gt;
-                          &lt;div class="house seven"&gt;
-                            &lt;h3&gt;Apartment&lt;/h3&gt;
-                            &lt;img src="./Images/house-7.jpg" alt="apartment image"&gt;
-                          &lt;/div&gt;
-                          &lt;div class="house eight"&gt;
-                            &lt;h3&gt;Family&lt;/h3&gt;
-                            &lt;img src="./Images/house-8.jpg" alt="family house image"&gt;
-                          &lt;/div&gt;
-                        &lt;/div&gt;
-                      &lt;/section&gt;
-                  
-                      &lt;section class="about" id="about"&gt;
-                        &lt;h1&gt;About&lt;/h1&gt;
-                        &lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa quam enim illo aut corrupti voluptate, veniam corporis vitae.&lt;/p&gt;
-                        &lt;div class="employee-container"&gt;
-                          &lt;div class="employee one"&gt;
-                            &lt;img src="./Images/team-2.jpg" alt="John Doe Image"&gt;
-                            &lt;h1&gt;John Doe&lt;/h1&gt;
-                            &lt;h3&gt;CEO &amp; Founder&lt;/h3&gt;
-                            &lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, porro.&lt;/p&gt;
-                            &lt;a href=""&gt;Contact&lt;/a&gt;
-                          &lt;/div&gt;
-                          &lt;div class="employee two"&gt;
-                            &lt;img src="./Images/team-1.jpg" alt="Jane Doe Image"&gt;
-                            &lt;h1&gt;Jane Doe&lt;/h1&gt;
-                            &lt;h3&gt;Architect&lt;/h3&gt;
-                            &lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, porro.&lt;/p&gt;
-                            &lt;a href=""&gt;Contact&lt;/a&gt;
-                          &lt;/div&gt;
-                          &lt;div class="employee three"&gt;
-                            &lt;img src="./Images/team-3.jpg" alt="Mike Ross Image"&gt;
-                            &lt;h1&gt;Mike Ross&lt;/h1&gt;
-                            &lt;h3&gt;Architect&lt;/h3&gt;
-                            &lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, porro.&lt;/p&gt;
-                            &lt;a href=""&gt;Contact&lt;/a&gt;
-                          &lt;/div&gt;
-                          &lt;div class="employee four"&gt;
-                            &lt;img src="./Images/team-4.jpg" alt="Dan Star Image"&gt;
-                            &lt;h1&gt;Dan Star&lt;/h1&gt;
-                            &lt;h3&gt;Architect&lt;/h3&gt;
-                            &lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, porro.&lt;/p&gt;
-                            &lt;a href=""&gt;Contact&lt;/a&gt;
-                          &lt;/div&gt;
-                        &lt;/div&gt;
-                      &lt;/section&gt;
-                  
-                      &lt;section class="contact" id="contact"&gt;
-                        &lt;h1&gt;Contact&lt;/h1&gt;
-                        &lt;p&gt;Let's get in touch and talk about your next project.&lt;/p&gt;
-                        &lt;form action=""&gt;
-                          &lt;div class="contact-us"&gt;
-                            &lt;i class="fas fa-address-card"&gt;&lt;/i&gt;
-                            &lt;input type="text" class="contact-name" placeholder="Name"&gt;
-                          &lt;/div&gt;
-                          &lt;input type="text" placeholder="Email"&gt;
-                          &lt;input type="text" placeholder="Subject"&gt;
-                          &lt;input type="text" placeholder="Comment"&gt;
-                          &lt;button&gt;Send Message&lt;/button&gt;
-                        &lt;/form&gt;
-                        &lt;img src="./Images/map.jpg" alt="Map of BR Architect"&gt;
-                      &lt;/section&gt;
-                    &lt;/main&gt;
-                  
-                    &lt;footer&gt;
-                      &lt;!-- BLACK BACKGROUND CONTAINER --&gt;
-                    &lt;/footer&gt;
-                  &lt;/body&gt;
-                  &lt;/html&gt;
-                </code>
-              </pre>
-              </div>
-              <div id="css-code">
-              <pre style="font-size: 12px; background-color: #20202A;">
-                <code class="">
-                  * {
-                    box-sizing: border-box;
-                    margin: 0;
-                    padding: 0;
-                  }
-                  
-                  header {
-                    background-color: white;
-                    filter: drop-shadow(0px 2px 5px rgb(104, 104, 104));
-                    font-family: Arial, sans-serif;
-                    width: 100%;
-                    position: fixed;
-                    top: 0;
-                    z-index: 100;
-                  }
-                  
-                  .logo {
-                    align-items: baseline;
-                    display: flex;
-                    margin-left: 0.6em;
-                    padding: 0.8em 1em;
-                  }
-                  
-                  .logo h1 {
-                    font-family: Verdana, sans-serif;
-                    font-size: 0.7em;
-                    font-weight: bolder;
-                    letter-spacing: 0.3em;
-                    margin-right: 0.8em;
-                  }
-                  
-                  .logo h2 {
-                    font-family: Arial, Helvetica, sans-serif;
-                    font-size: 0.7em;
-                    font-weight: 600;
-                    letter-spacing: 0.3em;
-                  }
-                  
-                  nav {
-                    display: none;
-                  }
-                  
-                  a:hover {
-                    text-decoration: underline;
-                  }
-                  
-                  .banner {
-                    display: flex;
-                    flex-wrap: nowrap;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-content: center;
-                    align-items: center;
-                  }
-                  
-                  .banner-title {
-                    position: absolute;
-                    margin-top: 1.4em;
-                  }
-                  
-                  .banner-title > h1 {
-                    background-color: rgba(0, 0, 0, 0.692);
-                    color: rgba(255, 255, 255, 0.849);
-                    font-family: Verdana, sans-serif;
-                    font-size: 1.8em;
-                    letter-spacing: 0.1em;
-                    padding: 0.2em 0.4em;
-                  }
-                  
-                  .banner-title h2 {
-                    display: none;
-                  }
-                  
-                  img {
-                    width: 100%;
-                  }
-                  
-                  .banner > img {
-                    margin-top: 30px;
-                    width: 100%;
-                  }
-                  
-                  .house img {
-                    width: 100%;
-                  }
-                  
-                  main {
-                    font-family: Arial, sans-serif;
-                    max-width: 100%;
-                    padding: 0em 1.5em;
-                  }
-                  
-                  .projects > h1 {
-                    border-bottom: 1px solid rgba(128, 128, 128, 0.096);
-                    font-size: 1.1em;
-                    font-weight: 600;
-                    margin-top: 2em;
-                    padding-bottom: 0.7em;
-                  }
-                  
-                  
-                  .sample-houses {
-                    margin-top: 2em;
-                  }
-                  
-                  .house {
-                    margin-bottom: 1em;
-                  }
-                  
-                  .house > h3 {
-                    background-color: rgb(0, 0, 0);
-                    color: rgb(255,255,255);
-                    font-size: 0.7em;
-                    font-weight: 400;
-                    padding: 0.8em 1em;
-                    position: absolute;
-                  }
-                  
-                  .about {
-                    margin-top: 3em;
-                  }
-                  
-                  .about > h1 {
-                    border-bottom: 1px solid rgba(128, 128, 128, 0.096);
-                    font-size: 1.1em;
-                    font-weight: 600;
-                    margin-top: 2em;
-                    padding-bottom: 0.7em;
-                  }
-                  
-                  .about > p {
-                    font-size: 0.9em;
-                    line-height: 1.3em;
-                    margin-top: 1em;
-                    margin-bottom: 3em;
-                  }
-                  
-                  .employee img {
-                    filter: grayscale(80%);
-                  }
-                  
-                  .employee > h1 {
-                    font-size: 1.3em;
-                    font-weight: 400;
-                    margin-top: 0.5em;
-                  }
-                  
-                  .employee > h3 {
-                    color: rgb(128,128,128);
-                    font-size: 0.8em;
-                    font-weight: 400;
-                    margin-top: 1em;
-                    margin-bottom: 1em;
-                  }
-                  
-                  .employee > p {
-                    margin-bottom: 1em;
-                  }
-                  
-                  .employee > a {
-                    background-color:	rgb(224, 224, 224);
-                    color: rgb(0, 0, 0);
-                    display: block;
-                    font-size: 0.8em;
-                    margin: 0 auto;
-                    margin-bottom: 2em;
-                    padding: 0.6em;
-                    text-align: center;
-                    text-decoration: none;
-                    width: 100%;
-                  }
-                  
-                  .contact > h1 {
-                    border-bottom: 1px solid rgba(128, 128, 128, 0.096);
-                    font-size: 1.1em;
-                    font-weight: 600;
-                    margin-top: 2em;
-                    padding-bottom: 0.7em;
-                  }
-                  
-                  .contact > p {
-                    font-size: 0.9em;
-                    line-height: 1.3em;
-                    margin-top: 1em;
-                    margin-bottom: 1em;
-                  }
-                  
-                  .contact input {
-                    border: 1px solid rgb(194, 194, 194);
-                    height: fit-content;
-                    padding: 0.5em;
-                    width: 100%;
-                    margin-bottom: 1em;
-                  }
-                  
-                  .contact-us {
-                    display: flex;
-                    justify-content: flex-end;
-                  }
-                  
-                  .contact-us > i {
-                    display: block;
-                    color: rgb(194, 194, 194);
-                    position: absolute;
-                    margin-top: 0.5em;
-                    margin-right: 1em;
-                  }
-                  
-                  form button {
-                    background-color: rgb(0, 0, 0);
-                    color: rgb(255,255,255);
-                    margin-top: 1em;
-                    margin-bottom: 3em;
-                    padding: 0.5em 1em;
-                  }
-                  
-                  footer {
-                    background-color: rgb(0, 0, 0);
-                    width: 100%;
-                    height: 30px;
-                    margin-top: 0.7em;
-                  }
-                  
-                  @media only screen and (min-width: 450px) {
-                    header {
-                      display: flex;
-                      justify-content: space-between;
-                      align-items: center;
-                    }
-                  
-                    nav {
-                      display: inline-block;
-                      margin-right: 1em;
-                    }
-                    
-                    nav ul {
-                      list-style-type: none;
-                    }
-                  
-                    nav li {
-                      display: inline;
-                    }
-                  
-                    nav a {
-                      color: rgb(0, 0, 0);
-                      font-size: 0.7em;
-                      font-weight: 600;
-                      letter-spacing: 0.2em;
-                      padding: 0.7em;
-                      text-decoration: none;
-                    }
-                  
-                    .banner-title > h1 {
-                      display: inline;
-                      position: relative;
-                    }
-                  
-                    .banner-title > h2 {
-                      color: rgb(255,255,255);
-                      display: inline;
-                      font-family: Arial, sans-serif;
-                      font-size: 1.8em;
-                      font-weight: 400;
-                      letter-spacing: 0.1em;
-                      margin-left: 0.2em;
-                    }
-                  
-                    .projects {
-                      padding-top: 2em;
-                    }
-                  
-                    .about {
-                      margin-top: 0;
-                      padding-top: 1em;
-                    }
-                  
-                    .contact > h1 {
-                      margin-top: 0;
-                      padding-top: 3em;
-                    }
-                  }
-                  
-                  @media only screen and (min-width: 650px) { .sample-houses, 
-                    .employee-container {
-                      display: flex;
-                      flex-wrap: wrap;
-                      justify-content: space-between;
-                    }
-                  
-                    .house,
-                    .employee {
-                      width: 49%;
-                    }
-                  
-                    .house > img {
-                      width: 100%;
-                      align-content: center;
-                    }
-                  
-                    .house h3 {
-                      font-size: 0.8em;
-                      font-weight: 600;
-                    }
-                  
-                    .employee > a {
-                      font-weight: 600;
-                    }
-                  
-                    .logo h1 {
-                      font-size: 1em;
-                      font-weight: bolder;
-                    }
-                    
-                    .logo h2 {
-                      font-size: 1em;
-                    }
-                  
-                    nav a {
-                      font-size: 1em;
-                      font-weight: 600;
-                    }
-                  
-                    .projects > h1 {
-                      font-size: 1.5em;
-                    }
-                  
-                    .house > h3 {
-                      font-size: 1em;
-                    }
-                  
-                    .about > p {
-                      font-size: 1.1em;
-                    }
-                  
-                    .about > h1 {
-                      font-size: 1.5em;
-                    }
-                  
-                    .contact > h1 {
-                      font-size: 1.5em;
-                    }
-                  
-                    .contact > p {
-                      font-size: 1.2em;
-                    }
-                  
-                    .employee > h3,
-                    p {
-                      font-size: 1.2em;
-                    }
-                  
-                    .employee > a {
-                      font-size: 1.2em;
-                    }
-                  
-                    form  > input,
-                    .contact-name,
-                    .fas,
-                    button {
-                      font-size: 1.2em;
-                    }
-                    .contact-us > i {
-                      margin-top: 0.6em;
-                    }
-                    
-                    .banner-title > h1 {
-                      font-size: 2.5em;
-                    }
-                  
-                    .banner-title > h2 {
-                      font-size: 2.5em;
-                    }
-                  
-                  }
-                  
-                  @media only screen and (min-width: 900px) {
-                    .banner-title > h1 {
-                      font-size: 2.5em;
-                    }
-                  
-                    .banner-title > h2 {
-                      font-size: 2.5em;
-                    }
-                  }
-                  
-                  @media only screen and (min-width: 1280px) {
-                    .house,
-                    .employee {
-                      width: 24%;
-                    }
-                  
-                    .banner-title > h1 {
-                      font-size: 3em;
-                    }
-                  
-                    .banner-title > h2 {
-                      font-size: 3em;
-                    }
-                  }
-                </code>
-              </pre>
-              </div>
-            </div>
-          </section>
         </section>
       </div>
     </section>
@@ -728,15 +185,15 @@
         </div>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li class="current"><a href="#">Projects</a></li>
+          <li class="current"><a href="projects.html">Projects</a></li>
           <li><a href="about-me.html">About Me</a></li>
-          <li><a href="contact-me.html">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li><a href="blog.html">Blog</a></li>
         </ul>
       </div>
 
       <div class="page-name">
-        <h1>Projects - BR Architects</h1>
+        <h1>Projects - Land Rover</h1>
       </div>
       <ul class="view-mode">
         <li id="moon">

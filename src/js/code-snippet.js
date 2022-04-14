@@ -19,12 +19,14 @@ if (jsChecker == 'scrpt') {
     e.preventDefault();
     cssList.classList.add('current');
     htList.classList.remove('current');
+    jsList.classList.remove('current');
     document.getElementById('html-code').style.display = 'none';
     document.getElementById('css-code').style.display = 'block';
   });
 
   htList.addEventListener('click', function(e) {
     e.preventDefault();
+    jsList.classList.remove('current');
     cssList.classList.remove('current');
     htList.classList.add('current');
     document.getElementById('html-code').style.display = 'block';

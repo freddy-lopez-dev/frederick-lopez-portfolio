@@ -1,12 +1,11 @@
-
 .blog-container {
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
-.main-content > h1 {
+.main-content>h1 {
   margin-top: 2em;
   margin-bottom: 1.5em;
   color: white;
@@ -14,37 +13,30 @@
   margin-left: 0;
 }
 
-.blog1 {
+.blog {
+  cursor: pointer;
   width: 300px;
   height: 300px;
+  margin-right: 2em;
+  margin-bottom: 8em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 .blog-container img {
-  width: 300px;
-  height: 300px;
-  margin-bottom: 8em;
+  width: 280px;
+  height: 180px;
 }
 
 .blog-content {
-  background-color: rgb(43,43,54);
-  position: absolute;
-  top: 230px;
-  width: 300px;
-  height: 160px;
+  background-color: rgb(43, 43, 54);
+  width: 280px;
+  height: 210px;
   padding: 1.5em;
 }
 
-.blog-content2 {
-  background-color: rgb(43,43,54);
-  position: absolute;
-  top: 700px;
-  width: 300px;
-  height: 160px;
-  padding: 1.5em;
-}
-
-.blog-content h1,
-.blog-content2 h1 {
+.blog-content h1 {
   margin-top: 0;
   margin-left: 0;
   color: white;
@@ -52,17 +44,15 @@
   margin-bottom: 1em;
 }
 
-.blog-content p,
-.blog-content2 p {
-  color: rgb(140,140,142);
+.blog-content p {
+  color: rgb(140, 140, 142);
   font-size: 12px;
   text-align: justify;
   margin-bottom: 0.5em;
 }
 
-.blog-content a,
-.blog-content2 a {
+.blog-content a {
   text-decoration: none;
   font-size: 12px;
-  color: rgb(241,0,87)
+  color: rgb(241, 0, 87)
 }

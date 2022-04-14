@@ -5,7 +5,7 @@ banner.lastElementChild.addEventListener('click', function() {
 })
 
 const autoType = document.getElementById('auto-type');
-var buildWeb = "I build web interfaces";
+var buildWeb = "Let's make it possible";
 var index = 0;
 
 window.next_letter = function() {

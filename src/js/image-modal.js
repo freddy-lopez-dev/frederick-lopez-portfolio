@@ -1,5 +1,5 @@
 //button back projects
-document.getElementById('project-title').lastElementChild.addEventListener('click', function() {
+document.querySelector('.project-button').lastElementChild.addEventListener('click', function() {
   location.href='projects.html';
 })
 

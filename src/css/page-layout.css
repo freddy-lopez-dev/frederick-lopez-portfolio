@@ -23,6 +23,7 @@ main {
   width: 70vw;
   background-image: url(../Images/middle-panel-wallpaper.jpg);
   background-size: cover;
+  height: 726px;
 }
 
 .right-nav {

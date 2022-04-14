@@ -1,5 +1,5 @@
 #project-title h1 {
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 1em;
   color: #fff;
   font-size: 17px;
@@ -11,6 +11,7 @@
   position: relative;
   margin-top: 1.9em;
   left: 2em;
+  margin-bottom: 2em;
 }
 
 .project-menu a {
@@ -30,34 +31,65 @@
 
 .projects {
   margin: 0 auto;
+  height: 623px;
   overflow-y: auto;
-  height: 670px;
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2em;
 }
 
 .projects::-webkit-scrollbar {
   display: none;
 }
 
-#logo img{
-  width: 300px;
-  height: 200px;
-  position: absolute;
-  left: 30px;
-  top: 50px;
+#logo, 
+#lrover,
+#match,
+#outlet,
+#lumen8,
+#kraft,
+#portal,
+#crypt,
+#pig,
+#flix {
+  display: flex;
+  margin-bottom: 1.4em;
+  margin-right: 2.4em;
 }
 
-#hoverlogo {
+#logo img, 
+#lrover img, 
+#match img, 
+#outlet img, 
+#lumen8 img,
+#kraft img,
+#portal img,
+#crypt img,
+#pig img,
+#flix {
+  width: 300px;
+  height: 200px;
+}
+
+#hoverlogo, 
+#hoverlrover,
+#hovergame,
+#hoveroutlet,
+#hoverlumen,
+#hoverkraft,
+#hoverportal,
+#hovercrypt,
+#hoverpig,
+#hoverflix  {
   color: white;
   width: 300px;
   height: 200px;
   background-color: rgb(36,36,47);
-  position: absolute;
-  left: 30px;
-  top: 50px;
   opacity: 80%;
   text-align: center;
   padding-top: 3em;
+  position: absolute;
   display: none;
 }
 
@@ -68,9 +100,11 @@
 #hoverlumen p,
 #hoverkraft p,
 #hoverportal p,
-#hovershift p,
-#hovercrypt p {
-  margin-bottom: 2em;
+#hovercrypt p,
+#hoverpig p,
+#hoverflix p {
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 #hoverlogo button, 
@@ -80,202 +114,18 @@
 #hoverlumen button,
 #hoverkraft button,
 #hoverportal button,
-#hovershift button,
-#hovercrypt button {
+#hovercrypt button,
+#hoverpig button,
+#hoverflix button {
   background-color: rgb(241,0,87);
   text-decoration: none;
   cursor: pointer;
   border: 0;
   padding: 0.7em 2em 0.7em 2em;
   border-radius: 0.3em;
-}
-
-#lrover img{
-  width: 300px;
-  height: 500px;
-  position: absolute;
-  left: 380px;
-  top: 50px;
-  opacity: 80%;
-}
-
-#hoverlrover {
-  color: white;
-  width: 300px;
-  height: 500px;
-  background-color: rgb(36,36,47);
-  position: absolute;
-  left: 380px;
-  top: 50px;
-  opacity: 90%;
-  text-align: center;
-  padding-top: 11em;
-  display: none;
-}
-
-#match img{
-  width: 320px;
-  height: 300px;
-  position: absolute;
-  left: 730px;
-  top: 50px;
-  opacity: 80%;
-}
-
-#hovergame {
-  color: white;
-  width: 320px;
-  height: 300px;
-  background-color: rgb(36,36,47);
-  position: absolute;
-  left: 730px;
-  top: 50px;
-  opacity: 90%;
-  text-align: center;
-  padding-top: 7em;
-  display: none;
-}
-
-#outlet img{
-  width: 300px;
-  height: 500px;
-  position: absolute;
-  right: 740px;
-  top: 550px;
-  opacity: 80%;
-}
-
-#hoveroutlet {
-  color: white;
-  width: 300px;
-  height: 500px;
-  background-color: rgb(36,36,47);
-  position: absolute;
-  right: 740px;
-  top: 550px;
-  opacity: 90%;
-  text-align: center;
-  padding-top: 11em;
-  display: none;
-}
-
-#lumen8 img{
-  width: 320px;
-  height: 200px;
-  position: absolute;
-  left: 730px;
-  top: 385px;
-}
-
-#hoverlumen {
-  color: white;
-  width: 320px;
-  height: 200px;
-  background-color: rgb(36,36,47);
-  position: absolute;
-  left: 730px;
-  top: 385px;
-  opacity: 90%;
-  text-align: center;
-  padding-top: 2.2em;
-  padding-left: 1em;
-  padding-right: 1em;
-  display: none;
-}
-
-#kraft img{
-  width: 300px;
-  height: 445px;
-  position: absolute;
-  right: 393px;
-  top: 605px;
-  opacity: 80%;
-}
-
-#hoverkraft {
-  color: white;
-  width: 300px;
-  height: 445px;
-  background-color: rgb(36,36,47);
-  position: absolute;
-  right: 393px;
-  top: 605px;
-  opacity: 90%;
-  text-align: center;
-  padding-top: 11em;
-  display: none;
-}
-
-#portal img{
-  width: 320px;
-  height: 200px;
-  position: absolute;
-  left: 730px;
-  top: 860px;
-}
-
-#hoverportal {
-  color: white;
-  width: 320px;
-  height: 200px;
-  background-color: rgb(36,36,47);
-  position: absolute;
-  left: 730px;
-  top: 860px;
-  opacity: 90%;
-  text-align: center;
-  padding-top: 3em;
-  padding-left: 1em;
-  padding-right: 1em;
-  display: none;
-}
-
-#shift img{
-  width: 320px;
-  height: 200px;
-  position: absolute;
-  left: 730px;
-  top: 625px;
-}
-
-#hovershift {
-  color: white;
-  width: 320px;
-  height: 200px;
-  background-color: rgb(36,36,47);
-  position: absolute;
-  left: 730px;
-  top: 625px;
-  opacity: 90%;
-  text-align: center;
-  padding-top: 3em;
-  padding-left: 1em;
-  padding-right: 1em;
-  display: none;
-}
-
-#crypt img{
-  width: 300px;
-  height: 200px;
-  position: absolute;
-  left: 30px;
-  top: 300px;
-}
-
-#hovercrypt {
-  color: white;
-  width: 300px;
-  height: 200px;
-  background-color: rgb(36,36,47);
-  position: absolute;
-  left: 30px;
-  top: 300px;
-  opacity: 90%;
-  text-align: center;
-  padding-top: 3em;
-  display: none;
-  padding-left: 1em;
-  padding-right: 1em;
+  width: 130px;
+  height: 40px;
+  margin-top: 1.5em;
 }
 
 .code-snip h1 {

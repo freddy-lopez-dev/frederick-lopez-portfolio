@@ -1,6 +1,6 @@
 .project-container {
   overflow-y: auto;
-  height: 725px;
+  height: 718px;
 }
 
 .project-container::-webkit-scrollbar {
@@ -10,11 +10,12 @@
 #project-title {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 2em;
   color: white;
 }
 
-#project-title button {
+#pjnbtn {
   cursor: pointer;
   color: white;
   background-color: rgb(241,0,87);
@@ -53,6 +54,7 @@
   font-size: 17px;
   margin-left: 2em;
   margin-top: 2em;
+  margin-bottom: 0;
 }
 
 .project-details {
@@ -64,7 +66,7 @@
   margin-left: 2em;
   margin-top: 2em;
   background-color: #2C2C38;
-  width: 650px;
+  width: 662px;
   padding: 2em;
 }
 
@@ -82,13 +84,13 @@
   margin-left: 2em;
   margin-top: 2em;
   background-color: #2C2C38;
-  width: 300px;
+  width: 314px;
 }
 
 .tools-holder {
   list-style-type: none;
   display: flex;
-  margin-left: 1.5em;
+  margin-left: 2em;
   margin-top: 1.7em;
 }
 
@@ -100,7 +102,7 @@
 
 .code-container {
   background-color: #2C2C38;
-  width: 980px;
+  width: 1007px;
 }
 
 .code-snip {
@@ -196,6 +198,6 @@
   cursor: pointer;
 }
 
-.description p {
+.prjdesc p {
   text-align: justify;
 }

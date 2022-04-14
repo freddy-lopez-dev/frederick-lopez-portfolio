@@ -1,0 +1,11 @@
+.img-slider-mobile {
+  display: flex;
+  margin-left: 2em;
+}
+
+.img-slider-mobile img {
+  width: 250px;
+  height: 370px;
+  margin-right: 2em;
+  cursor: pointer;
+}

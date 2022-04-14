@@ -1,0 +1,11 @@
+.img-slider-web {
+  display: flex;
+  margin-left: 2em;
+}
+
+.img-slider-web img {
+  width: 315px;
+  height: 200px;
+  margin-right: 2em;
+  cursor: pointer;
+}
