@@ -252,3 +252,10 @@
   left: 750px;
   top: 30px;
 }
+
+@media screen and (min-width: 1920px) {
+  .main-content {
+    height: 886px;
+  }
+}
+

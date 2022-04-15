@@ -30,3 +30,19 @@ main {
   width: 5vw;
   text-align: center;
 }
+
+@media screen and (min-width: 1920px) {
+  .middle-panel {
+    height: 920px;
+  }
+
+  .skill-info {
+    height: 594px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .middle-panel {
+    width: 89vw;
+  }
+}

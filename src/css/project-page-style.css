@@ -43,7 +43,7 @@
   display: none;
 }
 
-#logo, 
+#logo,
 #lrover,
 #match,
 #outlet,
@@ -58,10 +58,10 @@
   margin-right: 2.4em;
 }
 
-#logo img, 
-#lrover img, 
-#match img, 
-#outlet img, 
+#logo img,
+#lrover img,
+#match img,
+#outlet img,
 #lumen8 img,
 #kraft img,
 #portal img,
@@ -72,7 +72,7 @@
   height: 200px;
 }
 
-#hoverlogo, 
+#hoverlogo,
 #hoverlrover,
 #hovergame,
 #hoveroutlet,
@@ -81,11 +81,11 @@
 #hoverportal,
 #hovercrypt,
 #hoverpig,
-#hoverflix  {
+#hoverflix {
   color: white;
   width: 300px;
   height: 200px;
-  background-color: rgb(36,36,47);
+  background-color: rgb(36, 36, 47);
   opacity: 80%;
   text-align: center;
   padding-top: 3em;
@@ -107,7 +107,7 @@
   padding-right: 1em;
 }
 
-#hoverlogo button, 
+#hoverlogo button,
 #hoverlrover button,
 #hovergame button,
 #hoveroutlet button,
@@ -117,7 +117,7 @@
 #hovercrypt button,
 #hoverpig button,
 #hoverflix button {
-  background-color: rgb(241,0,87);
+  background-color: rgb(241, 0, 87);
   text-decoration: none;
   cursor: pointer;
   border: 0;
@@ -130,4 +130,24 @@
 
 .code-snip h1 {
   margin-left: 0;
+}
+
+@media screen and (min-width: 1920px) {
+  .projects {
+    height: 698px;
+    width: 1359px;
+  }
+
+  #logo,
+  #lrover,
+  #match,
+  #outlet,
+  #lumen8,
+  #kraft,
+  #portal,
+  #crypt,
+  #pig,
+  #flix {
+    margin-right: 1.4em;
+  }
 }

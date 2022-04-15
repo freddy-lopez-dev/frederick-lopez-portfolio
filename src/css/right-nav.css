@@ -115,3 +115,11 @@
 #menu .current a {
   color: white;
 }
+
+@media screen and (min-width: 1920px) {
+  .page-name {
+    background-color: rgb(32,32,42);
+    height: 712px;
+  }
+}
+

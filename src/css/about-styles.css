@@ -11,7 +11,7 @@
   margin-bottom: 1em;
 }
 
-.about-banner > img {
+.about-banner>img {
   opacity: 70%;
   width: 850px;
   height: 170px;
@@ -34,9 +34,9 @@
 }
 
 .about-detailed2 {
-  background-color: rgb(36,36,47);
+  background-color: rgb(36, 36, 47);
   text-align: justify;
-  color: rgb(140,140,142);
+  color: rgb(140, 140, 142);
   padding-top: 0.3em;
   padding: 2em;
   width: 853px;
@@ -52,7 +52,7 @@
 .glow {
   position: absolute;
   opacity: 30%;
-  background-color: rgb(241,0,87);
+  background-color: rgb(241, 0, 87);
   box-shadow: 0 0 0 0 rgba(241, 0, 87, 1);
   border-radius: 50%;
   height: 10px;
@@ -71,7 +71,7 @@
     transform: scale(1);
     box-shadow: 0 0 0 10px rgb(241, 0, 87, 0);
   }
-    
+
   100% {
     transform: scale(0.95);
     box-shadow: 0 0 0 0 rgb(241, 0, 87, 0);
@@ -106,4 +106,66 @@
 .music {
   top: 240px;
   right: 295px;
+}
+
+@media screen and (min-width: 1920px) {
+  .about-detailed2 {
+    height: 623px;
+  }
+
+  .free {
+    top: 218px;
+    right: 911px;
+  }
+  
+  .ramen {
+    top: 211px;
+    right: 1110px;
+  }
+  
+  .tako {
+    top: 160px;
+    right: 1130px;
+  }
+  
+  .everything {
+    top: 201px;
+    right: 643px;
+  }
+  
+  .computer {
+    top: 138px;
+    right: 468px;
+  }
+  
+  .music {
+    top: 240px;
+    right: 466px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .free {
+    right: 706px;
+  }
+  
+  .ramen {
+    right: 912px;
+  }
+  
+  .tako {
+    right: 935px;
+  }
+  
+  .everything {
+    right: 452px;
+  }
+  
+  .computer {
+    right: 278px;
+  }
+  
+  .music {
+    right: 275px;
+  }
 }

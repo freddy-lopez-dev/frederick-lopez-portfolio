@@ -9,3 +9,13 @@
   margin-right: 2em;
   cursor: pointer;
 }
+
+@media screen and (min-width: 1920px) {
+  .img-slider-mobile img {
+    height: 420px;
+  }
+
+  #lrimg {
+    margin-left: 18em;
+  }
+}
